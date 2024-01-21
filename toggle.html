@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toggle Example</title>
+  <style>
+    /* Optional: Add some basic styling for better appearance */
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 50px;
+    }
+    button {
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<button id="toggleButton" onclick="toggle()">On</button>
+
+<script>
+  // JavaScript function to toggle the button state
+  function toggle() {
+    var button = document.getElementById("toggleButton");
+    
+    // Check the current state
+    if (button.innerHTML === "On") {
+      // If it's "On", switch to "Off"
+      button.innerHTML = "Off";
+      // Add your logic for the "Off" state here
+      
+    } else {
+      // If it's "Off", switch to "On"
+      button.innerHTML = "On";
+      // Add your logic for the "On" state here
+      
+    }
+  }
+</script>
+
+</body>
+</html>

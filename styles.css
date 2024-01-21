@@ -1,0 +1,60 @@
+body{
+    background-color: #001e4d;
+    margin: 0;
+}
+
+p{
+    background-color: #fff;
+    text-align: center;
+    font-size: 150px;
+
+    margin: 120px auto 0px;
+    padding: 20px auto;
+    height: 200px;
+    width: 600px;
+    border-radius: 20px;
+}
+#toggleButton{
+    position: relative;
+    margin: 10px auto;
+    height: 100px;
+    width: 300px;
+    font-size: 50px;
+    display: none;
+}
+#pauseButton{
+    position: relative;
+    margin: 10px auto;
+    height: 100px;
+    width: 300px;
+    font-size: 50px;
+}
+#resetButton{
+    position: relative;
+    margin: 10px auto;
+    height: 100px;
+    width: 300px;
+    font-size: 50px;
+}
+#toggleDiv{
+    text-align: center;
+}
+#set-time{
+    text-align: center;
+    /* margin: 20px 20px; */
+}
+#setTime{
+    margin: 20px;
+    height: 100px;
+    width: 300px;
+    font-size: 50px;
+}
+.btn-container {
+    height: 300px;
+    transition: height 0.7s ease-out;
+    overflow: hidden;
+}
+
+/* #checkbox{
+    margin-left:100px;
+} */
